@@ -29,3 +29,7 @@ yarn-error.log*
 *.tmp
 *.log
 /tmp-fetch/
+/.asset-queue.tmp
+# Earlier bash/Python /tmp path collision produced these artifacts at the
+# repo root — regenerate via scripts/fetch-remote.sh if ever reproduced.
+/static-siteassets*

@@ -1,0 +1,32 @@
+.page_wrap[class*="with_bg"] .page_content_wrap {
+  background-color: transparent;
+}
+.page_wrap.with_bg {
+  background-position: top center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+body.with_bg_canvas .page_wrap[class*="with_bg"] {
+  background: none;
+}
+
+.page_wrap[class*="with_bg"] .top_panel, .page_wrap[class*="with_bg"] [class*="scheme_"].top_panel, .page_wrap[class*="with_bg"] [class*="scheme_"].footer_wrap {
+  background-color: transparent;
+}
+
+.woocommerce div.product form.cart div.quantity span,
+.woocommerce-page div.product form.cart div.quantity span,
+.woocommerce .shop_table.cart div.quantity span,
+.woocommerce-page .shop_table.cart div.quantity span {
+  background-color: transparent;
+}
+.woocommerce div.product form.cart div.quantity span:hover,
+.woocommerce-page div.product form.cart div.quantity span:hover,
+.woocommerce .shop_table.cart div.quantity span:hover,
+.woocommerce-page .shop_table.cart div.quantity span:hover {
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=skin-upgrade-style.css.map */
