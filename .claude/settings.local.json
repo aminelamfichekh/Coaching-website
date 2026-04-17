@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"c:\\\\Users\\\\dell\\\\Downloads\\\\grit-2024-08-22-11-42-05-utc \\(3\\)\\\\Grit_v1.10\\\\website\\\\css\")",
+      "Bash(mkdir -p \"c:\\\\Users\\\\dell\\\\Downloads\\\\grit-2024-08-22-11-42-05-utc \\(3\\)\\\\Grit_v1.10\\\\website\\\\js\")",
+      "Bash(mkdir -p \"c:\\\\Users\\\\dell\\\\Downloads\\\\grit-2024-08-22-11-42-05-utc \\(3\\)\\\\Grit_v1.10\\\\website\\\\images\")",
+      "WebSearch",
+      "Bash(curl -s -L -A 'Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/122.0.0.0 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml' -H 'Accept-Language: en-US,en;q=0.9' https://grit.ancorathemes.com/business-coach/ -o /tmp/biz2.html)",
+      "Read(//tmp/**)"
+    ]
+  }
+}
