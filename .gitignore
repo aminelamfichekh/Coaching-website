@@ -21,6 +21,10 @@ yarn-error.log*
 # Local backups produced by Part B Phase 2
 /_original_backup/
 
+# Plugin source is extracted from tracked /plugins/*.zip — regenerate with
+# `unzip plugins/booked.zip -d _plugin-source/ && unzip plugins/revslider.zip -d _plugin-source/`
+/_plugin-source/
+
 # Scratch / temp
 *.tmp
 *.log
