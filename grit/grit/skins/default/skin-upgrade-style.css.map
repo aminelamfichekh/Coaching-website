@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAYE,+CAAmB;EAClB,gBAAgB,EAAE,WAAW;;AAG/B,kBAAU;EACT,mBAAmB,EAAE,UAAU;EAC/B,uBAAuB,EAAE,OAAO;EAChC,eAAe,EAAE,OAAO;EACxB,iBAAiB,EAAE,SAAS;;;AAG9B,gDAAiD;EAChD,UAAU,EAAE,IAAI;;;AAGhB,+JAAyE;EACxE,gBAAgB,EAAE,WAAW;;;AAK/B;;;oDAGqD;EACpD,gBAAgB,EAAE,WAAW;;AAC7B;;;0DAAQ;EACP,gBAAgB,EAAE,WAAW",
+"sources": ["skin-upgrade-style.scss"],
+"names": [],
+"file": "skin-upgrade-style.css"
+}

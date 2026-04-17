@@ -1,0 +1,42 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+@import "css/_skin-vars.scss";
+
+
+
+
+
+
+//background image
+.page_wrap {
+	&[class*="with_bg"] {
+		.page_content_wrap {
+			background-color: transparent;
+		}
+	}
+	&.with_bg {
+		background-position: top center;
+		-webkit-background-size: contain;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+body.with_bg_canvas .page_wrap[class*="with_bg"] {
+	background: none;
+}
+.page_wrap[class*="with_bg"] {
+	.top_panel, [class*="scheme_"].top_panel, [class*="scheme_"].footer_wrap {
+		background-color: transparent;	
+	}
+}
+
+//woocommerce
+.woocommerce div.product form.cart div.quantity span, 
+.woocommerce-page div.product form.cart div.quantity span, 
+.woocommerce .shop_table.cart div.quantity span, 
+.woocommerce-page .shop_table.cart div.quantity span {
+	background-color: transparent;
+	&:hover {
+		background-color: transparent;
+	}
+}
