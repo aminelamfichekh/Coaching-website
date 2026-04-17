@@ -2,7 +2,7 @@
 import re
 import pathlib
 
-SITE = pathlib.Path("static-site")
+SITE = pathlib.Path("docs")
 
 imgs_on_disk = set()
 for f in SITE.rglob("assets/images/uploads/**/*"):

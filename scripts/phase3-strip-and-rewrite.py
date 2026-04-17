@@ -1,6 +1,6 @@
 """Phase 3: Strip WP-specific markup and rewrite asset URLs to relative paths.
 
-Runs over every static-site/*.html. Never touches:
+Runs over every docs/*.html. Never touches:
 - data-* attributes
 - inline script blocks (TRX_ADDONS_STORAGE, setREVStartSize/RS_MODULES, Elementor)
 - <style id='elementor-frontend-inline-css'>
@@ -18,7 +18,7 @@ import pathlib
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SITE = ROOT / "static-site"
+SITE = ROOT / "docs"
 
 # ------------------------------------------------------------------
 # 1. STRIP — regex patterns for elements to remove entirely
@@ -157,7 +157,7 @@ def process(path: pathlib.Path) -> dict:
 def main():
     pages = sorted(SITE.glob("*.html"))
     if not pages:
-        print("No HTML found in static-site/", file=sys.stderr)
+        print("No HTML found in docs/", file=sys.stderr)
         sys.exit(1)
 
     print(f"{'file':<62} {'strips':>7} {'urls':>7} {'ver=':>6} {'size delta':>12}")

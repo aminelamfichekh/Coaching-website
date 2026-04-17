@@ -14,7 +14,7 @@ import re
 import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SITE = ROOT / "static-site"
+SITE = ROOT / "docs"
 
 # Matches href="//host/..." / src="//host/..." / url(//host/...) / rel="preload" etc.
 # Captures the //host/path portion and prepends https:.

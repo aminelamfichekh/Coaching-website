@@ -1,5 +1,5 @@
 """Remove the 'Shop' entry from the main nav (desktop + sticky + mobile)
-across every static-site/*.html.
+across every docs/*.html.
 
 Targets the exact <li>...<a href="shop.html"><span>Shop</span></a></li>
 pattern that WP Menus emit.  Footer/sidebar copies with the same pattern
@@ -8,7 +8,7 @@ are also removed — user asked to remove Shop from every top-of-page nav.
 import re
 import pathlib
 
-SITE = pathlib.Path(__file__).resolve().parent.parent / "static-site"
+SITE = pathlib.Path(__file__).resolve().parent.parent / "docs"
 
 SHOP_LI = re.compile(
     r'<li[^>]*>\s*<a[^>]*href=["\']shop\.html["\'][^>]*>\s*<span>Shop</span>\s*</a>\s*</li>',

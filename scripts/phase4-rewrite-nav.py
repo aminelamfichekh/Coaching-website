@@ -13,7 +13,7 @@ import pathlib
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SITE = ROOT / "static-site"
+SITE = ROOT / "docs"
 
 HOST = "https://grit.ancorathemes.com"
 

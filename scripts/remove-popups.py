@@ -13,7 +13,7 @@ is NOT touched — that's the hamburger drawer, not a popup.
 import re
 import pathlib
 
-SITE = pathlib.Path(__file__).resolve().parent.parent / "static-site"
+SITE = pathlib.Path(__file__).resolve().parent.parent / "docs"
 
 # Patterns that can be removed with a flat regex (single element, no nesting).
 FLAT_STRIPS = [

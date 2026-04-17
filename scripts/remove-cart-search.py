@@ -1,4 +1,4 @@
-"""Remove the header cart + search widgets from every static-site/*.html.
+"""Remove the header cart + search widgets from every docs/*.html.
 
 Uses a div-balanced finder, not plain regex, so nested <div>s inside each
 widget are handled correctly.
@@ -14,7 +14,7 @@ import re
 import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SITE = ROOT / "static-site"
+SITE = ROOT / "docs"
 
 # Openers we want to remove with their nested content.
 # Each entry is (name, regex for opening <div ...>).

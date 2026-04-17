@@ -1,4 +1,4 @@
-"""Scan all static-site/*.html for referenced asset paths under assets/,
+"""Scan all docs/*.html for referenced asset paths under assets/,
 report any that do NOT exist on disk, and write a fetch queue.
 
 Run:  python scripts/check-missing-assets.py
@@ -8,7 +8,7 @@ import re
 import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SITE = ROOT / "static-site"
+SITE = ROOT / "docs"
 
 # Matches relative paths starting with assets/... (most common from Phase 3 rewrites)
 # or absolute /assets/... (if any sneaked in). Also catches CSS url(assets/...).

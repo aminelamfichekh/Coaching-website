@@ -7,7 +7,7 @@ so we target that exact marker to avoid any collateral damage.
 import re
 import pathlib
 
-SITE = pathlib.Path(__file__).resolve().parent.parent / "static-site"
+SITE = pathlib.Path(__file__).resolve().parent.parent / "docs"
 
 # One <li>...<a href="#" data-todo="demo-variant"><span>...</span></a></li>
 # No nested <li>, so a non-greedy match on the li body is safe.

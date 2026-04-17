@@ -28,8 +28,10 @@ yarn-error.log*
 # Scratch / temp
 *.tmp
 *.log
+*.rar
+*.zip
 /tmp-fetch/
 /.asset-queue.tmp
 # Earlier bash/Python /tmp path collision produced these artifacts at the
 # repo root — regenerate via scripts/fetch-remote.sh if ever reproduced.
-/static-siteassets*
+/docsassets*
